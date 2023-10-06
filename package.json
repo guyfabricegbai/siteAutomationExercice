@@ -1,0 +1,15 @@
+{
+  "name": "siteautomationexercice",
+  "version": "1.0.0",
+  "description": "Projet CYPRESS sur le site https://automationexercise.com/",
+  "main": "index.js",
+  "scripts": {
+    "runTestRegisterUser": "cypress run --spec cypress/e2e/3-register-user/registerUser.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
